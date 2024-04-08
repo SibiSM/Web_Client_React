@@ -1,0 +1,13 @@
+/* index.css */
+
+.footer {
+  min-width: 10vw;
+  display: flex;
+  flex-direction: row;
+  gap: 9.3vw;
+  color: rgb(249, 249, 249);
+  padding: 2rem; /* Adjust the padding as needed */
+  background-color: rgb(8, 8, 8);
+  margin-left: 0vw;
+  margin-right: 0vw;
+}

@@ -1,0 +1,35 @@
+/* tailwind.css */
+
+/* styles.css */
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Your custom CSS here */
+
+
+.product-card {
+    @apply p-5 m-4 border border-white rounded-xl;
+}
+
+.products-container {
+    @apply w-full bg-teal-500 justify-center p-0 ml-0;
+}
+
+.products {
+    @apply grid grid-cols-4 gap-5 justify-items-center mt-0 bg-white ml-0;
+}
+
+.title {
+    @apply text-center text-2xl py-2 text-teal-700 font-medium font-bold text-black;;
+}
+
+.producttitle {
+    @apply text-center justify-center text-teal-900 py-2 bg-cadetblue font-medium;;
+}
+
+.image {
+    @apply p-2 w-52 h-52;
+}
+

@@ -1,0 +1,49 @@
+/* index.css */
+
+.header {
+    min-width: 10vw;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem; /* Adjust the gap as needed */
+    color: rgb(251, 249, 249);
+    padding: 1rem; /* Adjust the padding as needed */
+    background-color: rgb(7, 7, 7);
+    margin-left: 0vw;
+    margin-right: 0vw;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .navigation-item-text {
+    min-width: max-content;
+    font-weight: bolder;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  
+  .navigation-items {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem; /* Adjust the gap as needed */
+    margin-left: 0.5rem; /* Adjust the margin as needed */
+  }
+  
+  .user-section {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem; /* Adjust the gap as needed */
+    justify-content: flex-end;
+    margin-left: 1rem; /* Adjust the margin as needed */
+  }
+  
+  .user-section-items {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5rem; /* Adjust the gap as needed */
+    justify-content: flex-end;
+    font-weight: bolder;
+    font-size: 1.2rem; /* Adjust the font size as needed */
+  }
+  
